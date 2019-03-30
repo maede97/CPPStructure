@@ -1,0 +1,7 @@
+#ifndef PROJ_SUB_HPP
+#define PROJ_SUB_HPP
+
+#include "src/subfolder1/Sub1.hpp"
+#include "src/subfolder2/Sub2.hpp"
+
+#endif /* PROJ_SUB_HPP */

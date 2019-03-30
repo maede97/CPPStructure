@@ -1,0 +1,17 @@
+INCLUDE_DIRECTORIES(
+    ${PROJECT_SOURCE_DIR}
+    ${PROJECT_BINARY_DIR}
+)
+
+INSTALL(
+    DIRECTORY src
+    DESTINATION include/projName
+    COMPONENT headers
+    FILES_MATCHING PATTERN "*.hpp"
+)
+
+INSTALL(
+    FILES sub
+    DESTINATION include/projName
+    COMPONENT headers
+)
